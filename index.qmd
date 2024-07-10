@@ -1,0 +1,224 @@
+---
+title: "![HEMDIG(pt)](logo.png)"
+subtitle: ""
+author: Eric Brasil
+institute: "Institute of Humanities and Languages<br>University for the International Integration of Afro-Brazilian Lusophony (UNILAB)"
+date: "3 June 2024"
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasiln.github.io/>Eric Brasil</a> | <a href=https://ericbrasiln.github.io/hemdig-framework/>HEMDIG(pt) Framework</a>"
+---
+## O que vou falar e o que estou fazendo aqui? {.center}
+
+- Pesquiso (pesquisava?) Gente que fazia o carnaval lá no início do XX
+- HDB
+
+---
+
+## Mas História Digital existe?
+
+![](https://media3.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif?cid=ecf05e47u4xhsv4oujiw88w6q10ep42jk3yc1zg0efavj2p6&rid=giphy.gif&ct=g)
+
+---
+
+- Uma volta aos números?
+- Um reforço do eurocentrismo?
+- Prática sem teoria?
+
+---
+
+### Como é que se começa um projeto em história?
+
+![](https://media3.giphy.com/media/f1UH5LwVuWucM/giphy.gif?cid=ecf05e47kx6wnnnf9m6wg9c8k4a1cpe9kprem9pun2rglbxu&rid=giphy.gif&ct=g)
+
+---
+
+- Suas fontes são digitais ou digitalizadas?
+
+- Você já possui ou criou uma versão legível por computador dos seus dados.
+
+- Você já compreendeu "como suas fontes digitais foram criadas, e como ficaram disponíveis para você" (BLANEY, et al. 2021. p. 44)
+
+---
+
+### Como coletar e organizar esses dados?
+
+- CSV, JSON, XML, TEI, RDF, PDF, JPG?
+
+- API?
+
+- Metadados?
+
+- Documentação, princípios FAIR, Cadeia de custódia?
+
+:::{.notes}
+- Como lidar com esses diferentes formatos?
+:::
+
+---
+
+### Compreender esse processo deve ser tarefa básica em nossa profissão.
+
+![](https://i.giphy.com/media/Xch9I90tRezyicQgma/giphy.webp)
+
+---
+
+
+:::{.notes}
+notas do apresentador.
+:::
+
+---
+
+## Título 1 {.center}
+
+>"Os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional" (FRIDLUND; OIVA; PAJU, 2020, pos. 543).
+
+---
+
+### Por uma Hermenêutica Digital
+
+>A combinação de competências digitais críticas com uma abordagem auto-reflexiva é chamada de hermenêutica digital: explicitar como a produção de conhecimento histórico por meio de ferramentas e tecnologias digitais é o resultado de um processo complexo de interação humano-máquina, de coconstrução do “objeto epistêmico” de inquirição e investigação histórica (Fickers e Clavert, 2021).
+
+---
+
+### Ou por uma Hermenêutica da Prática
+
+>uma teoria das práticas que nos permite refletir criticamente sobre os desafios teóricos e artesanais do nosso trabalho digital e conceber soluções práticas para enfrentá-los. (Lucchesi 2020, cap. 3 Tradução minha) 
+            
+---
+
+## Ou seja, um erro no código...
+
+Exemplo do erro do código para analisar os dados da HDB
+
+---
+### Pesquisa de pós-doutorado
+
+- Desenvolvimento de um framework para pesquisas que utilizam periódicos em língua portuguesa digitalizados
+- Casos de estudo: HDB e coleção de periódicos da Biblioteca Nacional Digital de Portugal
+- Resultado: [HEMDIG(pt)](https://ericbrasiln.github.io/hemdig-framework/)
+
+---
+
+## Como compreender os dados da HDB?
+
+- É possível através da interface?
+- As escolhas técnicas da interface afetam a compreensão dos dados?
+
+---
+
+## Acessando os dados
+
+- API? 
+- Web scraping ou coleta manual?
+- Dados abertos?
+
+---
+
+## Uma visão geral dos dados: o arquivo XML (MARCXML)
+
+- Título do periódico
+- Subtítulo do periódico
+- Local de publicação
+- Editora
+- Período de publicação
+- Periodicidade da publicação
+- Idioma da publicação
+
+---
+
+## Visão geral do acervo
+
+---
+
+| Coluna         |  Quantidade  |
+|--------------- | ------------ |
+| Título         | 7685         |
+| Subtítulo      | 3666         |
+| Local          | 7608         |
+| Período        | 7265         |
+| Editora        | 5675         |
+| Peridodicidade | 5901         |
+| Idioma         | 6614         |
+
+---
+
+### Escopo cronológico e temporal
+
+- 673 locais únicos
+- 7685 títulos
+- Publicações entre 1521 e 2022
+
+---
+
+#### Viés cronológico?
+
+---
+
+##### Gráfico de dispersão com datas de início da publicação
+
+![Gráfico de dispersão com datas de início](imgs/datas_inicio_scatter.png)
+
+---
+
+##### Gráfico de dispersão com datas de início e término da publicação
+ 
+![Gráfico de dispersão com datas de início e término da publicação](imgs/datas_inicio_termino_scatter.png)
+
+---
+
+## Mas aqui há um erro de código...
+
+O que ele impacta na análise?
+
+---
+
+## Conclusion {.center}
+
+- Importance of methodological reflections
+- Demand for technical training
+- Centrality of a collaborative and interdisciplinary approach
+- Debate and collaborate with archival institutions
+- Support new research using these sources
+
+---
+
+### Eric Brasil
+
+- Email: [ericbrasiln@proton.me](mailto:ericbrasiln@proton.me)
+- GitHub: [ericbrasiln](https://github.com/ericbrasiln/)
+- Twitter: [ericbrasiln](http://www.twitter.com/ericbrailn) 
+- [Orcid](https://orcid.org/0000-0001-5067-8475) - [Lattes](http://lattes.cnpq.br/6853705640900524)
+- [Site pessoal](https://ericbrasiln.github.io)
+
+---
+
+### Curso de Licenciatura em História
+
+- Instituto de Humanidades e Letras do campus dos Malês, Unilab
+- email: [historia.ba@unilab.edu.br ](mailto:historia.ba@unilab.edu.br)
+
+---
+
+### Laboratório de Humanidades Digitais da UFBA
+
+- Twitter: [labhdufba](https://twitter.com/labhdufba) 
+- Instagram: [labhdufba](http://instagram.com/labhdufba)
+- Github: [https://github.com/LABHDUFBA](https://github.com/LABHDUFBA)
+
+---
+
+## Thank you! {.center}
+
+- [HEMDIG(pt) Framework](https://ericbrasil.com.br/hemdig-framework/)
+- [Eric Brasil](https://ericbrasil.com.br/)
+- [Get in touch!](https://ericbrasil.com.br/contact/)
